@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2048</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/ShowScore.js"></script>
+    <script src="js/DisplayBoxes.js"></script>
+    <script src="js/Controller.js"></script>
+    <script src="js/MoveBoxes.js"></script>
+    <script src="js/GameCheck.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span id="logo">2048</span>
+            <span id="userScore">得分：0</span>
+        </div>
+        <div class="header2">
+            <span id="instruction">
+                <ul>
+                    <li>欢迎来到2048线上版</li>
+                    <li>使用上下左右或WASD键控制</li>
+                    <li>组合数字并争取得到2048！</li>
+                </ul>
+            </span>
+            <button id="btn">新游戏</button>
+        </div>
+        <div id="gameContainer">
+            <div class="gameRow">
+                <span class="box"></span>
+                <span class="box"></span>
+                <span class="box"></span>
+                <span class="box"></span>
+            </div>
+            <div class="gameRow">
+                <span class="box"></span>
+                <span class="box"></span>
+                <span class="box"></span>
+                <span class="box"></span>
+            </div>
+            <div class="gameRow">
+                <span class="box"></span>
+                <span class="box"></span>
+                <span class="box"></span>
+                <span class="box"></span>
+            </div>
+            <div class="gameRow">
+                <span class="box"></span>
+                <span class="box"></span>
+                <span class="box"></span>
+                <span class="box"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    showScore();
+    initBoard();
+    generateNum();
+    generateNum();
+    displayGame();
+</script>

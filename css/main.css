@@ -1,0 +1,85 @@
+body{
+    background-color: #eee4da;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.container{
+    width:500px;
+    height: 700px;
+    margin: 20px auto 0;
+}
+.header{
+    width:500px;
+    height:50px;
+}
+.header2{
+    width:500px;
+    height:80px;
+    padding-top:20px;
+}
+#gameContainer{
+    width:488px;
+    height:488px;
+    margin:0 auto;
+    padding-top: 12px;
+    border-radius: 5px;
+    position:absolute;
+    background-color: #776e65;
+}
+.gameRow{
+    width:476px;
+    height:110px;
+    display: flex;
+    margin-left:12px;
+    margin-right:12px;
+    margin-bottom: 12px;
+}
+.box{
+    display: inline-block;
+    position:relative;
+    width:110px;
+    height:110px;
+    border-radius: 5px;
+    margin-right:12px;
+    background-color: #CDC1B4;
+    font-size:50px;
+    color: #776e65;
+    text-align: center;
+    line-height: 110px;
+    font-weight: bold;
+}
+#logo{
+    color:#776e65;
+    font-size: 50px;
+    font-family: "Microsoft YaHei", serif;
+    font-weight: bold;
+    float:left;
+}
+#userScore{
+    display: inline-block;
+    width:200px;
+    height:50px;
+    margin-right: 10px;
+    font-size: 30px;
+    text-align: right;
+    line-height: 70px;
+    float: right;
+}
+#instruction{
+    width:250px;
+    height:100px;
+    float:left;
+}
+#btn{
+    float:right;
+    width:120px;
+    height:50px;
+    border: none;
+    border-radius:10px;
+    background-color: #F59163;
+    color:#fff;
+    font-size:25px;
+}
